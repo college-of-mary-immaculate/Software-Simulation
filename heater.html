@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heating Simulation</title>
+    <link rel="stylesheet" href="heater.css">
+</head>
+<body>
+    <div class="container">
+        <canvas id="switch"></canvas>
+        <img class="background-image" src="heater_img1-removebg-preview.png" alt="Background">
+    </div>
+    <div class="buttons-container">
+        <button class="setting-button" data-setting="low">Low</button>
+        <button class="setting-button" data-setting="medium">Medium</button>
+        <button class="setting-button" data-setting="warm">Warm</button>
+        <button class="setting-button" data-setting="high">High</button>
+    </div>
+    <div id="temperature-display">Temperature: 0°F</div>
+    <audio id="fire-sound" src="electric-heater-31736.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
